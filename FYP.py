@@ -16,11 +16,11 @@ st.set_page_config(page_title="UMPSA For You", layout="wide")
 col1, col2 = st.columns([1, 8])
 
 with col1:
-    st.image("ump_logo.png", width=42)
+    st.image("ump_logo.png", width=70)
 
 with col2:
     st.markdown(
-        "<h1 style='margin-bottom:0;'>🎯 UMPSA FOR YOU PAGE</h1>",
+        "<h1 style='margin-bottom:0;'> UMPSA FOR YOU PAGE</h1>",
         unsafe_allow_html=True
     )
 
