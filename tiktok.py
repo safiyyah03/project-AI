@@ -8,7 +8,7 @@ st.title("🎯UMPSA FOR YOU PAGE")
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_excel(r"D:\SEM 5\BSD3513 INTRO AI\GPE_AI\tiktok.xlsx")
+    df = pd.read_excel(r"tiktok.xlsx")
     
     # Convert Duration to seconds
     def get_seconds(time_str):
@@ -107,3 +107,4 @@ else:
                     st.caption(f"Posted on: {row['Date_Posted']}")
                     
                     
+
